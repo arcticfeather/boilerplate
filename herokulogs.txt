@@ -1,0 +1,42 @@
+2014-08-29T11:51:20.020034+00:00 app[web.1]:  * Running on http://127.0.0.1:5000/
+2014-08-29T11:51:20.020248+00:00 app[web.1]:  * Restarting with reloader
+2014-08-29T11:51:17.449430+00:00 heroku[web.1]: Starting process with command `python app.py`
+2014-08-29T11:51:13.483185+00:00 heroku[api]: Scale to web=1 by arcticfeather@hotmail.com
+2014-08-29T11:51:13.598682+00:00 heroku[api]: Deploy 40e4234 by arcticfeather@hotmail.com
+2014-08-29T11:51:13.598815+00:00 heroku[api]: Release v3 created by arcticfeather@hotmail.com
+2014-08-29T11:49:22.429109+00:00 heroku[api]: Enable Logplex by arcticfeather@hotmail.com
+2014-08-29T11:49:22.429243+00:00 heroku[api]: Release v2 created by arcticfeather@hotmail.com
+2014-08-29T11:52:22.543446+00:00 app[web.1]:  * Running on http://127.0.0.1:5000/
+2014-08-29T11:52:22.543668+00:00 app[web.1]:  * Restarting with reloader
+2014-08-29T11:51:13+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-08-29T11:52:17.896506+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-08-29T11:52:17.896795+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-08-29T11:52:18.627914+00:00 heroku[web.1]: Process exited with status 137
+2014-08-29T11:52:21.825930+00:00 heroku[web.1]: Starting process with command `python app.py`
+2014-08-29T11:53:23.042903+00:00 heroku[web.1]: State changed from starting to crashed
+2014-08-29T11:55:04.026709+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=8ab01189-34e2-43cd-b1b5-b671355cf03a fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T11:53:26.242431+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boilerplate-af.herokuapp.com request_id=5ec0f652-6774-4f9a-91a7-df165920d2df fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T11:53:26.468169+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boilerplate-af.herokuapp.com request_id=906271ea-e1c0-4f2b-af3a-76eec5796358 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T11:52:18.639992+00:00 heroku[web.1]: State changed from starting to crashed
+2014-08-29T11:52:18.640474+00:00 heroku[web.1]: State changed from crashed to starting
+2014-08-29T11:52:30.105332+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=796024c8-a436-44a6-b951-e3e9842cda82 fwd="54.221.95.171" dyno= connect= service= status=503 bytes=
+2014-08-29T11:53:24.544961+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=82d5dc75-8c00-43c2-81b2-c4683ce1c661 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T11:53:36.838286+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=boilerplate-af.herokuapp.com request_id=abbacd15-6217-4
+7c6-89f6-60703f4fb7ba fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T11:53:26.085615+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=1efcf897-2f35-47b6-959e-40c147191fcb fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T12:00:15.538260+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=70342d3e-9683-4ae5-947c-3d566b1a8be2 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T12:00:17.520958+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=c482c2cf-cd16-43aa-9519-67d47e3f8bc7 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T12:00:09.393311+00:00 heroku[web.1]: Process exited with status 2
+2014-08-29T12:00:09.404776+00:00 heroku[web.1]: State changed from starting to crashed
+2014-08-29T12:04:50.075809+00:00 heroku[web.1]: State changed from starting to crashed
+2014-08-29T12:04:50.075982+00:00 heroku[web.1]: State changed from crashed to starting
+2014-08-29T12:05:53.695020+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-08-29T12:05:53.695256+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-08-29T12:05:55.510227+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=8cf80318-0e9a-4ed4-b3f6-ff160d35d785 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
+2014-08-29T12:03:49.101950+00:00 heroku[web.1]: Starting process with command `python app.py`
+2014-08-29T12:05:54.397135+00:00 heroku[web.1]: State changed from starting to crashed
+2014-08-29T12:03:22+00:00 heroku[slug-compiler]: Slug compilation started
+2014-08-29T12:03:44+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-08-29T12:03:50.315395+00:00 app[web.1]:  * Running on http://127.0.0.1:5000/
+2014-08-29T12:03:50.315742+00:00 app[web.1]:  * Restarting with reloader
+2014-08-29T12:05:30.259697+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=boilerplate-af.herokuapp.com request_id=482bac76-cabf-44c9-948d-3ebd40435b06 fwd="218.185.146.150" dyno= connect= service= status=503 bytes=
